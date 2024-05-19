@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "praise-the-moment"
+version = "0.1.0"
+description = "An adventure RPG game on CLI"
+authors = ["Eleven-junichi2"]
+readme = "README.md"
+packages = [{include = "praise_the_moment"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
